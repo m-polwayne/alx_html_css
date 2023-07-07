@@ -1,0 +1,21 @@
+body, main {
+    display: flex;
+    background-color: aquamarine;
+}
+body {
+    flex-direction: column;
+}
+main {
+    flex-direction: row;
+    flex: auto;
+}
+article{
+    flex: 2;
+    overflow-y: auto;
+    border: 3px orangered;
+    background-color: blueviolet;
+}
+aside{
+    flex: 1;
+    overflow-y: auto;
+}
